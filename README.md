@@ -4,7 +4,7 @@
 MarvelComic
  ### B. Link Aplikasi
  
- https://drive.google.com/drive/u/0/my-drive
+https://drive.google.com/file/d/0B6BxA2763C6HX3Fld0VnSDhFOXc/view?usp=sharing
  ### C. Identitas  
  
 
