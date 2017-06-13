@@ -57,10 +57,8 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
         if (id == R.id.nav_marvel) {
             fragment = new MarvelFragment();
-        } else if (id == R.id.nav_gallery) {
-            fragment = new ComicFragment();
         } else if (id == R.id.nav_fav) {
-
+            fragment = new FavoriteFragment();
         }
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commitNow();

@@ -60,8 +60,6 @@ public class MarvelFragment extends Fragment implements MarvelAdapter.marvelList
     }
 
     private void fillData() {
-        DialogFragment newProgressFragment = ProgressDialogFragment.newInstance("Loading");
-        newProgressFragment.show(getActivity().getFragmentManager(), "progress");
         String url = "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=e4ad44aab5d8f2c56faa40577b8d82c6&hash=33a5ddeacd8cd4cd0ba64ace02a1de5d";
         GsonGetRequest<Response> req = new GsonGetRequest<Response>(url, Response.class, null, new com.android.volley.Response.Listener<Response>() {
             @Override
@@ -78,13 +76,12 @@ public class MarvelFragment extends Fragment implements MarvelAdapter.marvelList
             }
         });
         VolleySingleton.getInstance(getActivity().getApplicationContext()).addToRequestQueue(req);
-        newProgressFragment.dismiss();
     }
 
     @Override
     public void detail(int pos) {
         Marvel Marveli = marvelList.get(pos);
-        Intent intent = new Intent(getActivity(), MarvelDetailActivity.class);
+        Intent intent = new Intent(getActivity(), CharDetailActivity.class);
         intent.putExtra("detail", Marveli);
         startActivity(intent);
     }
