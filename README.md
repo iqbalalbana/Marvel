@@ -4,7 +4,7 @@
 MarvelComic
  ### B. Link Aplikasi
  
-https://drive.google.com/file/d/0B6BxA2763C6HX3Fld0VnSDhFOXc/view?usp=sharing
+https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0ByiRS_nRPRqPdjcyclAxb2RYNDQ/view?usp=sharing
  ### C. Identitas  
  
 
@@ -33,7 +33,7 @@ https://drive.google.com/file/d/0B6BxA2763C6HX3Fld0VnSDhFOXc/view?usp=sharing
 
  #### F. Library dari Local Database yang digunakan pada Aplikasi 
 
- SugarORM
+ Realm
 
  #### G. Deskripsi Singkat.
 
@@ -53,7 +53,6 @@ Anda dapat menyimpan character marvel mana yang anda klik favorite, dan anda dap
 
  #### H. Kelebihan dari aplikasi
 
--
  - Interface Menarik.
 
 
